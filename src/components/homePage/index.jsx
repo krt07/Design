@@ -8,9 +8,9 @@ const HomePage = () => {
     return (
         <>
             <TopSection />
-            {/* <SecondSection />
+            <SecondSection />
             <ThirdSection />
-            <ForthSection /> */}
+            <ForthSection />
         </>
     );
 };
