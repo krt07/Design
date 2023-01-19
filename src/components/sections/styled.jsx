@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 import sectionBackgroundImg from '../images/background/backgroundImage.png';
-import sectionBgImg from '../images/ sectionBgImg/sectionbg.png';
+import sectionBgImg from '../images/background/ sectionBgImg/sectionbg.png';
 
 export const TopSection = styled.section`
     padding: 54px 0 0 0;
@@ -180,7 +180,6 @@ export const Arrow = styled.img`
     right: 0;
     left: 0;
 `;
-
 export const SecondSection = styled.section`
     max-width: 100%;
     padding: 19px 35px 142px 139px;
@@ -188,6 +187,19 @@ export const SecondSection = styled.section`
     background-image: url(${sectionBgImg});
     background-repeat: no-repeat;
     background-size: 100% 100%;
+`;
+export const Welcome = styled.h2`
+    /* width: 392px;
+    height: 76px; */
+    text-transform: uppercase;
+    font-size: 76px;
+    margin: 0 0 0 0;
+    line-height: 0.51;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #1c1b1c;
 `;
 
 export const Introduction = styled.h2`
@@ -208,25 +220,6 @@ export const Introduction = styled.h2`
     text-align: center;
     text-transform: uppercase;
 `;
-
-export const Welcome = styled.h2`
-    /* width: 392px;
-    height: 76px; */
-    text-transform: uppercase;
-    font-size: 76px;
-    margin: 0 0 0 0;
-    line-height: 0.51;
-    font-weight: 600;
-    line-height: normal;
-    letter-spacing: normal;
-    text-align: center;
-    color: #1c1b1c;
-`;
-
-export const Content = styled.div`
-    border-left: solid 4px #d8cf91;
-`;
-
 export const ContentElement = styled.p`
     font-family: Graphik;
     max-height: 306px;
@@ -240,21 +233,13 @@ export const ContentElement = styled.p`
     color: #d8d8d8;
 `;
 
-export const TitleSection = styled.div`
-    background-color: #161515;
-    padding: 67px;
-    max-width: 100%;
+export const Content = styled.div`
+    border-left: solid 4px #d8cf91;
 `;
-export const TitleHeading = styled.h2`
-    font-size: 74px;
-    font-weight: 600;
-    font-stretch: normal;
-    font-style: normal;
-
-    letter-spacing: normal;
-    text-align: center;
-    text-transform: uppercase;
-    color: #1c1b1c;
+export const TitleSection = styled.div`
+    padding: 67px;
+    background-color: #161515;
+    max-width: 100%;
 `;
 
 export const TitleSubHeading = styled.h2`
@@ -263,11 +248,20 @@ export const TitleSubHeading = styled.h2`
     font-stretch: normal;
     font-style: normal;
     text-transform: uppercase;
-
     letter-spacing: 16px;
     text-align: center;
     font-family: Graphik;
     font-weight: bold;
     font-stretch: normal;
     color: #4b4b4b;
+`;
+export const TitleHeading = styled.h2`
+    font-size: 74px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: center;
+    text-transform: uppercase;
+    color: #1c1b1c;
 `;

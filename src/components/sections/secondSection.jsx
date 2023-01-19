@@ -12,18 +12,16 @@ const SecondSection = () => {
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                         sed do eiusmod tempor incididunt ut labore et dolore
                         magna aliqua. Ut enim ad minim veniam, quis nostrud
-                        exercitation
-                        <br />
-                        ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                        exercitation ullamco laboris nisi ut aliquip ex ea
+                        commodo consequat.
                     </Styled.ContentElement>
                     <Styled.ContentElement>
                         Duis aute irure dolor in reprehenderit in voluptate
-                        velit esse cillum dolore.Lorem ipsum
-                        <br /> dolor sit amet, consectetur adipiscing elit, sed
-                        do eiusmod tempor incididunt ut labore et dolore magna
-                        aliqua. Ut enim ad minim veniam, quis nostrud
-                        exercitation ullamco laboris nisi ut aliquip ex ea
-                        commodo consequat.
+                        velit esse cillum dolore.Lorem ipsum dolor sit amet,
+                        consectetur adipiscing elit, sed do eiusmod tempor
+                        incididunt ut labore et dolore magna aliqua. Ut enim ad
+                        minim veniam, quis nostrud exercitation ullamco laboris
+                        nisi ut aliquip ex ea commodo consequat.
                     </Styled.ContentElement>
                 </Styled.Content>
             </Styled.SecondSection>
