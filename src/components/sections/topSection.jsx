@@ -30,7 +30,7 @@ import * as Styled from './styled';
 
 const TopSection = () => {
     return (
-        <Styled.Section>
+        <Styled.TopSection>
             <Styled.HeadImagesWrapper>
                 <Styled.MenuImageWrapper>
                     <Styled.Menu src={headImg} alt="Menu" />
@@ -71,7 +71,7 @@ const TopSection = () => {
             <Styled.ArrowWrapper>
                 <Styled.Arrow src={arrow} alt="dropDown" />
             </Styled.ArrowWrapper>
-        </Styled.Section>
+        </Styled.TopSection>
     );
 };
 

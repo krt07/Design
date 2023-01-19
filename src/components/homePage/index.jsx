@@ -1,6 +1,6 @@
 import React from 'react';
 import TopSection from '../sections/topSection';
-// import SecondSection from '../sections/secondSection';
+import SecondSection from '../sections/secondSection';
 // import ThirdSection from '../sections/thirdSection';
 // import ForthSection from '../sections/forthSection';
 
@@ -9,8 +9,8 @@ const HomePage = () => {
         <>
             <TopSection />
             <SecondSection />
-            <ThirdSection />
-            <ForthSection />
+            {/* <ThirdSection />
+            <ForthSection /> */}
         </>
     );
 };
